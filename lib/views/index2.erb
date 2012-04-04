@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<style>
+		.hidden { visibility:hidden; }
+		</style>
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>Strand Beer</title>
+	</head>
+	<body>
+	<a href="" id="switch">switch</a>
+	<p class='en' lang='en'>This is English content.</p>
+	<p class='zh hidden' lang='zh'>这是中国的内容。</p>
+	<div id="log"></div>
+
+	<script>
+	$("a#switch").click(function(event) {
+		if ($('.zh').hasClass("hidden")) {
+			$('.en').addClass("hidden").hide();
+			$('.zh').removeClass()("hidden").show();
+		} else {
+			$('.zh').addClass()("hidden").hide();
+			$('.en').removeClass("hidden").show();
+		}
+	});
+	$("a#zh").click(function(event) {
+	  event.preventDefault();
+		$('.zh').removeClass()("hidden"); //THis works
+		$('.en').addClass("hidden");
+	});
+	</script>
+  </body>
+</html>
