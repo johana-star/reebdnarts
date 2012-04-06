@@ -1,0 +1,36 @@
+beers:
+    -   type_en:        American Pale Ale
+        type_zh: 		美式淡啤酒
+        description_en: "This pale ale has a distinctly bitter–but not too bitter–flavor and deep amber color. Brewed with chocolate malt, light and dark carmel malts and American Nugget and Cascade hops; this beer has a piney hop feel and a slightly roasted carmel flavor. American Yeast."
+        description_zh: 	采用美国Nugget和Cascade啤酒花，具有一种独特的淡淡的苦香味。这种啤酒呈深琥珀色，带有少许烤焦糖的风味，啤酒花闻起来有松树的清香。主要原料：巧克力麦芽、浅焦糖麦芽、深焦糖麦芽；美国酵母。
+        on_tap: 		yes
+
+    -   type_en: 		Hefeweizen	
+        type_zh: 		德国小麦啤酒
+        description_en: "The feature summer ale of Bavaria, our hefeweizen is brewed with wheat and pale malt. The secret to hefeweizen is a special wheat yeast, which creates a balanced banana and clove flavor with a hint of citrus. Our hefe is unfiltered, as is tradition. Saaz hops.  Hefeweizen yeast."
+        description_zh: 这是一种巴伐利亚特色的夏季啤酒，用50%的小麦麦芽和50%的浅色大麦芽酿制而成。它的奥秘之处在于使用了一种特殊的小麦酵母，调和出均衡的香蕉/丁香味，并带有淡淡的柑橘香。啤酒未经过滤，保留了一直以来的传统。主要原料：Saaz啤酒花；德国小麦啤酒酵母。
+        on_tap: 		no	 
+
+    -   type_en: 		American Porter
+        type_zh: 		美式波特黑啤
+        description_en: "Medium brown color, with a lightly burnt malt character and a hint of coffee. Slightly sweet with a low hop level, our porter balances six different malts to create a complex malty and roasted character like chocolate. Uses both Nugget and Cascade hops. American Yeast."
+        description_zh: 呈中褐色，带有轻微烤糊的麦芽香以及咖啡的微妙口感。只用少量的啤酒花，因而味道偏甜。我们的波特使用六种不同的麦芽（包括咖啡麦芽、巧克力麦芽、黑麦芽），协调出一种混着麦芽甜和烘烤口感的类似于巧克力的味道。主要原料：Nugget啤酒花、Cascade啤酒花；美国酵母。
+        on_tap: 		no
+
+    -   type_en: 		Belgian Wit	
+        type_zh: 		比利时小麦啤酒
+        description_en: "Our version of Belgium’s traditional summer beer is brewed with half wheat and barley. Our wit is refreshingly fragrant and flavorful, and contains seven special ingredients, including pomelo, aged orange peel, and coriander. Saaz, Cluster, and Cascade hops. Wit yeast."
+        description_zh: 我们特别研制的这种比利时夏季传统啤酒的是用50%小麦和50%大麦混合酿造。入口甘甜清香，包含七个特殊配料，包括特制柚子皮、陈皮、香菜籽。主要原料：Saaz啤酒花、Cluster啤酒花、Cascade啤酒花；小麦啤酒酵母。
+        on_tap: 	yes	
+
+    -   type_en: 		Belgian Blond Ale
+        type_zh: 		比利时黄金麦酒
+        description_en: "Our Blond is made with Candi Sugar and honey, and has a distinctive floral aroma and slight peppery and spicy flavor. Minimally hoppy, this beer is decidedly sweet, and the yeast gives it a slight berry flavor. Saaz hops. Belgian yeast. *Stronger in alcohol content."
+        description_zh: 这款精酿的啤酒的特别之处是酿造时加入了比利时啤酒专用糖和蜂蜜，具有鲜明的花香、淡淡的胡椒和辛辣味。仅使用少量的啤酒花，因而口感清甜，使用的特制酵母也给它带来一种淡淡的浆果味。主要原料：Saaz啤酒花；比利时酵母。 *此款啤酒酒精含量相对较高
+        on_tap: 	yes	
+
+    -   type_en: 		American IPA
+        type_zh: 		美式印度淡艾尔啤酒
+        description_en: "Our IPA is almost three times as bitter as a normal beer and substantially more bitter than any other beer we brew. We use a combination of three hops, to make a piney, bold, citrus flavor. American Nugget, Cascade, and Cluster hops."
+        description_zh: 这种啤酒我们最苦的一种，它的苦味为60IBUs   （国际标准苦度单位），是一般啤酒的3倍。它使用了3种啤酒花的组合，给啤酒一种混合着松树香、粗犷、柑橘香的奇妙苦味。主要原料：Nugget啤酒花、Cascade啤酒花、Cluster啤酒花；美国酵母。
+        on_tap: 	yes
