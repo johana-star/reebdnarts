@@ -14,7 +14,7 @@ Feature: language selector
 	@javascript		
 	Scenario: Selecting Chinese language content
 		Given I am on the homepage
-		When I follow "ZH"
+		When I follow "中文"
 		Then I should be on the homepage
 		And I should see "关于斯特兰德啤酒"
 		And I should see "About Strand Beer" within ".hidden"
