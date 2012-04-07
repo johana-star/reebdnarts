@@ -21,6 +21,5 @@ So I can learn about beers currently available and those not on tap.
 	 | American Pale Ale |
 
 	Scenario: display which beers are on tap first.
-	Given 
 
 	Scenario: Indicate when a beer is unavailable.

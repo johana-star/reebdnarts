@@ -8,15 +8,13 @@ Feature: language selector
 		Given I am on the homepage
 		When I follow "EN"
 		Then I should be on the homepage
-		And I should see "This is English content."
-		And I should see "这是中国的内容。" within ".hidden"
-		And I should see "EN | ZH"
+		And I should see "About Strand Beer"
+		And I should see "关于斯特兰德啤酒" within ".hidden"
 
 	@javascript		
 	Scenario: Selecting Chinese language content
 		Given I am on the homepage
 		When I follow "ZH"
 		Then I should be on the homepage
-		And I should see "这是中国的内容。"
-		And I should see "This is English content." within ".hidden"
-		And I should see "EN | ZH"
+		And I should see "关于斯特兰德啤酒"
+		And I should see "About Strand Beer" within ".hidden"

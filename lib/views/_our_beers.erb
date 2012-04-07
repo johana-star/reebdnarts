@@ -1,0 +1,18 @@
+<div class="row">
+	<% @not_on_tap = [] %>
+	<% @beers.each do |beer| %>
+		<% if beer["on_tap"] %>
+			<div class="span6 on_tap">
+				<%= partial :beer_listing, :locals => {:beer => beer} %>
+			</div>
+		<% else %>
+		  <% @not_on_tap << beer %>
+		<% end %>
+	<% end %>
+	<% @not_on_tap.each do |beer| %>
+		<div class="span6 not_on_tap">
+			<h2>Not on tap</h2>
+			<%= partial :beer_listing, :locals => {:beer => beer} %>
+		</div>
+	<% end %>
+</div>

@@ -19,17 +19,13 @@ class MyApp < Sinatra::Base
       end
     end
   end
-  
+
   register Sinatra::ConfigFile
   config_file '../config/catalog.yml' # Loads the catalog
                                       # See http://www.sinatrarb.com/contrib/config_file.html
   get '/' do
-    erb :index
-  end
-  
-  get '/2' do
     @beers = settings.beers
-    erb :index2
+    erb :index
   end
   
   # start the server if ruby file executed directly

@@ -1,0 +1,16 @@
+			<!-- This is the script for the content switching -->
+			<script>
+				$("a#en").click(function(event) {
+				  event.preventDefault();
+					$('.zh').hide().addClass("hidden");
+					$('.en').show().removeClass("hidden");
+				});
+				$("a#zh").click(function(event) {
+				  event.preventDefault();
+					$('.zh').show().removeClass("hidden");
+					$('.en').hide().addClass("hidden");
+				});
+			</script>
+		</div>
+	</body>
+</html>
