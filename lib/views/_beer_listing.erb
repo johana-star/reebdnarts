@@ -1,15 +1,19 @@
 	<% align = @count % 4 <= 1 ? "right" : "left" %>
   
-	<img src="img/<%= beer['image'] %>" alt="<%= beer["type_en"]%>" class="pull-<%= align %>" height="200" width="200"/>
+	<img src="img/<%= beer['image'] %>" alt="<%= beer["type_en"]%>" class="pull-<%= align %>" height="225" width="225"/>
 	<h2 class='en' lang='en'>
 		<%= beer["type_en"] %> <br />
-		<%= "<span class='badge badge-error'>Not on tap</span>" if beer["on_tap"] == false %>
+		<%= "<span class='label label-important'>Not on tap</span>" unless beer["on_tap"] %>
 	</h2>
 	<h2 class='zh hidden' lang='zh'>
 		<%= beer["type_zh"] %> <br />
-		<%= "<span class='label label-important'>不可用</span>" if beer["on_tap"] == false %>
+		<%= "<span class='label label-important'>不可用</span>" unless beer["on_tap"] %>
 	</h2>
   <p class='en' lang='en'><%= beer["description_en"] %></p>
 	<p class='zh hidden' lang='zh'><%= beer["description_zh"] %></p>
+	<% if beer["label"] %>
+		<p class='en' lang='en'><span class='label label-<%= beer["label"]["type"]%>'><%= beer["label"]["en"] %></span></p>
+		<p class='zh hidden' lang='zh'><span class="label label-<%= beer["label"]["type"]%>"><%= beer["label"]["zh"] %></span></p>
+	<% end %>
 
 	<% @count += 1 %>

@@ -4,6 +4,10 @@ beers:
         description_en: "This pale ale has a distinctly bitter–but not too bitter–flavor and deep amber color. Brewed with chocolate malt, light and dark carmel malts and American Nugget and Cascade hops; this beer has a piney hop feel and a slightly roasted carmel flavor. American Yeast."
         description_zh: 	采用美国Nugget和Cascade啤酒花，具有一种独特的淡淡的苦香味。这种啤酒呈深琥珀色，带有少许烤焦糖的风味，啤酒花闻起来有松树的清香。主要原料：巧克力麦芽、浅焦糖麦芽、深焦糖麦芽；美国酵母。
         image:          APA.jpg
+        label:
+            type: inverse
+            en: Brewer's choice
+            zh: TKTKTK
         on_tap: 		yes
 
     -   type_en: 		Hefeweizen	
@@ -25,13 +29,21 @@ beers:
         description_en: "Our version of Belgium’s traditional summer beer is brewed with half wheat and barley. Our wit is refreshingly fragrant and flavorful, and contains seven special ingredients, including pomelo, aged orange peel, and coriander. Saaz, Cluster, and Cascade hops. Wit yeast."
         description_zh: 我们特别研制的这种比利时夏季传统啤酒的是用50%小麦和50%大麦混合酿造。入口甘甜清香，包含七个特殊配料，包括特制柚子皮、陈皮、香菜籽。主要原料：Saaz啤酒花、Cluster啤酒花、Cascade啤酒花；小麦啤酒酵母。
         image:      WIT.jpg
+        label:
+            type: success
+            en: Crowd favorite
+            zh: TKTKTK
         on_tap: 	yes	
 
     -   type_en: 		Belgian Blond Ale
         type_zh: 		比利时黄金麦酒
-        description_en: "Our Blond is made with Candi Sugar and honey, and has a distinctive floral aroma and slight peppery and spicy flavor. Minimally hoppy, this beer is decidedly sweet, and the yeast gives it a slight berry flavor. Saaz hops. Belgian yeast. *Stronger in alcohol content."
+        description_en: "Our Blond is made with Candi Sugar and honey, and has a distinctive floral aroma and slight peppery and spicy flavor. Minimally hoppy, this beer is decidedly sweet, and the yeast gives it a slight berry flavor. Saaz hops. Belgian yeast."
         description_zh: 这款精酿的啤酒的特别之处是酿造时加入了比利时啤酒专用糖和蜂蜜，具有鲜明的花香、淡淡的胡椒和辛辣味。仅使用少量的啤酒花，因而口感清甜，使用的特制酵母也给它带来一种淡淡的浆果味。主要原料：Saaz啤酒花；比利时酵母。 *此款啤酒酒精含量相对较高
         image:      BEL.jpg
+        label:
+            type: info
+            en: Higher alcohol content
+            zh: TKTKTK
         on_tap: 	yes	
 
     -   type_en: 		American IPA
@@ -39,4 +51,8 @@ beers:
         description_en: "Our IPA is almost three times as bitter as a normal beer and substantially more bitter than any other beer we brew. We use a combination of three hops, to make a piney, bold, citrus flavor. American Nugget, Cascade, and Cluster hops."
         description_zh: 这种啤酒我们最苦的一种，它的苦味为60IBUs   （国际标准苦度单位），是一般啤酒的3倍。它使用了3种啤酒花的组合，给啤酒一种混合着松树香、粗犷、柑橘香的奇妙苦味。主要原料：Nugget啤酒花、Cascade啤酒花、Cluster啤酒花；美国酵母。
         image:      IPA.jpg
+        label:
+            type: warning
+            en: A little bitter
+            zh: TKTKTK
         on_tap: 	yes
